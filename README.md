@@ -154,3 +154,7 @@ Now, after staging the changes, the file name will change or appear in **green**
 
 - Commit Tom's changes 
 
+![Tom's Commit](./img/27.%20Tom's%20Commit.png) 
+
+This takes the staged changes and rexords them in the reepository's history with a message describimg what was done. This commit is a milestone, making a specific point in the project's development. 
+
