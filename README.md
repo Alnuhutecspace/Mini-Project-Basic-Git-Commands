@@ -98,3 +98,85 @@ This send commits from the main branch on your laptop to GitHub (Remote Reposito
 ![GitHub After Push](./img/17.%20GitHub%20After%20Push.png)
 
 
+**Part 2: Simulating Tom and Jerry's Work**: 
+
+To simulate both Tom and Jerry working on the same laptop, you will switch between two branches making changes as each characters. 
+
+1. Tom's Work: 
+
+- Navigate to the project directory you just cloned. 
+
+![Tom Navigate To Project](./img/18.%20Tom%20Navigate%20to%20Project.png) 
+
+This moves you into the folder containing the cloned GitHub repository on your local machine. It is like steppinng into the project's workspace. 
+
+- Check the current branch: This shows you a list of all branches in your local repository. Initially, you will see only the "**main**" branch because that's the default starting point and no other branches have been created yet. 
+
+![Check Current Branch](./img/19.%20Check%20Current%20Branch.png) 
+
+- Create a new branch for Tom's work: 
+
+![Tom's Branch](./img/20.%20Tom's%20Branch.png) 
+
+This creates a new branch named **"update-navigation"** (You can name it whatever you wan). The command also automatically switches to the newly created branch from the **"main"** branch. This branch **"update-navigation"** is where Tom's updates to the website without affecting whatever is in the **"main"** branch. 
+
+- Check the branch again to see your newly created branch. 
+
+![Check New Branch](./img/21.%20Check%20New%20Branch.png) 
+
+Running **git branch** again now shows newly created branch, indicating you're now working in this new **"workspace"** dedicated to Tom's navigation updates. 
+
+- Recall you created an empty file "index.html" in the main and content was added. The  file will also exist in the 'update-navigation-branch': Open the 'index.html' and add the content below. 
+
+![To Add Content](./img/22.%20To%20Add%20Content.png)
+
+![Content Added](./img/23.%20Content%20Added.png) 
+
+This simulates Tom's contribution to the project. This text represents the work he's doing on the navigation bar. In the real world, this will be an actual software code. 
+
+- Check changes has not been staged. 
+
+![Check Change](./img/24.%20Check%20Changes.png) 
+
+At this stage, Tom has modified the file, but these changes have not not been prepared for a commit in Git. This is indicated by the file name appearing in **red** in the terminal output, signaling that the changes are recognised by Git but not yet staged. 
+
+- Staged Tom's changes: git add index.html can be used to stage only index.html file, to staged all the changes in the project for Tom's git add . will be ok.
+
+![](./img/25.%20Stage%20Tom's%20Changes.png) 
+
+This tells Git that you want to include the updates made to **index.html** in the next commit. It is like saying, "Okay, I'm happy with these changes and ready to record them". 
+
+- Confirm changes have been staged for commit: 
+
+![Confirm Changes](./img/26.%20Confirm%20Changes.png) 
+
+Now, after staging the changes, the file name will change or appear in **green** in the terminal output. This colour changes signifies that the file has been successfully staged, making it ready for the next step, which is committing these changes to the project's history. 
+
+- Commit Tom's changes 
+
+![Tom's Commit](./img/27.%20Tom's%20Commit.png) 
+
+This takes the staged changes and rexords them in the reepository's history with a message describimg what was done. This commit is a milestone, making a specific point in the project's development. 
+
+- Push Tom;s branch to GitHub: 
+
+![Tom's Push](./img/28.%20Tom's%20Push.png) 
+
+![GitHub Page After Push](./img/29.%20GitHub%20Page%20After%20Push.png)
+
+This send Tom's commits from your local branch on your laptop to GitHub (Remote Repository). It's like publishing your work so that others (or in this case "Jerry") can see and interact with it. This step updates the remote repo with Tom's contributions. 
+
+After complete Tom's workflow you will now simulateJerry's contribution to the project. Todo this you will 
+
+- switch back to main branch, 
+
+- create a new branch for Jerry, 
+
+- make changes, and then 
+
+- Stage, commit, and push this to GitHub. 
+
+1. Jerry's Work: 
+
+- Switch Back to the Main Branch:
+
