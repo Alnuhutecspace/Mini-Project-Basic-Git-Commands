@@ -158,3 +158,25 @@ Now, after staging the changes, the file name will change or appear in **green**
 
 This takes the staged changes and rexords them in the reepository's history with a message describimg what was done. This commit is a milestone, making a specific point in the project's development. 
 
+- Push Tom;s branch to GitHub: 
+
+![Tom's Push](./img/28.%20Tom's%20Push.png) 
+
+![GitHub Page After Push](./img/29.%20GitHub%20Page%20After%20Push.png)
+
+This send Tom's commits from your local branch on your laptop to GitHub (Remote Repository). It's like publishing your work so that others (or in this case "Jerry") can see and interact with it. This step updates the remote repo with Tom's contributions. 
+
+After complete Tom's workflow you will now simulateJerry's contribution to the project. Todo this you will 
+
+- switch back to main branch, 
+
+- create a new branch for Jerry, 
+
+- make changes, and then 
+
+- Stage, commit, and push this to GitHub. 
+
+1. Jerry's Work: 
+
+- Switch Back to the Main Branch:
+
