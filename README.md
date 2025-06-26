@@ -156,13 +156,14 @@ Now, after staging the changes, the file name will change or appear in **green**
 
 ![Tom's Commit](./img/27.%20Tom's%20Commit.png) 
 
-This takes the staged changes and rexords them in the reepository's history with a message describimg what was done. This commit is a milestone, making a specific point in the project's development. 
+This takes the staged changes and records them in the reepository's history with a message describing what was done. This commit is a milestone, making a specific point in the project's development. 
 
-- Push Tom;s branch to GitHub: 
+- Push Tom's branch to GitHub: 
 
 ![Tom's Push](./img/28.%20Tom's%20Push.png) 
 
 ![GitHub Page After Push](./img/29.%20GitHub%20Page%20After%20Push.png)
+
 
 This send Tom's commits from your local branch on your laptop to GitHub (Remote Repository). It's like publishing your work so that others (or in this case "Jerry") can see and interact with it. This step updates the remote repo with Tom's contributions. 
 
@@ -176,7 +177,52 @@ After complete Tom's workflow you will now simulateJerry's contribution to the p
 
 - Stage, commit, and push this to GitHub. 
 
+
 1. Jerry's Work: 
 
 - Switch Back to the Main Branch:
 
+![Switch To Main](./img/30.%20Switch%20To%20Main.png) 
+
+This command switches your current working directory back to the main branch, ensuring that Jerry's changes start from the latest version of the project. 
+
+- Pull the latest changes: 
+
+![Pull Latest](./img/31.%20Pull%20Latest.png) 
+
+This ensures that you have the latest changes updates from the
+repository, including Tom's merged changes, if any.
+
+- Create a New branch for Jerry's work: 
+
+![Jerry's Branch](./img/32.%20Jerry's%20%20Branch.png) 
+
+This creates a new branch where Jerry will make his changes, keeping them separate from the **main** project until they are ready to be merged. 
+
+-Open **index.html** file by adding contact information. This simulates Jerry's task. 
+
+- Stage Jerry's Work: Before changing contact info was added.
+
+![Jerry's Stage](./img/33.%20Jerry's%20Stage.png) 
+
+This commands stages the changes Jerry made to the **index.html** and everything in the project file, preparing them for commit. 
+
+- Commit Jerry's Changes: 
+
+![Jerry's Commit](./img/34.%20Jerry%20Commit.png) 
+![Continue](./img/35.%20Continue.png)
+
+This saves Jerry's changes in the branch's history, with a message describing what was done. 
+
+- Push Jerry's Branch to GitHub: 
+
+![Jerry's Push](./img/36.%20Jerry%20Push.png) 
+
+All the commands use above uploads Jerrys branch to the GitHub repository, making it available for review and merging into the main project.
+
+After the push the GitHub home page looks like this 
+
+![After Push](./img/37.%20After%20Push.png) 
+
+
+So far you have experienced collaboration between Tom and Jerry , But that is not all. Someone needs to review their work, merge the changes to the main project and resolve conflicts if any. In the next project we will see how that works.
